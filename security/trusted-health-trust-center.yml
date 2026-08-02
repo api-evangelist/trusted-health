@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.trustedhealth.com/security
+url: https://www.trustedhealth.com/security
+certifications:
+- SOC 2
+- ISO 27001
+evidence:
+- source: https://www.trustedhealth.com/security
+  keywords:
+  - soc 2
+  - iso 27001

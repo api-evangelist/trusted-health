@@ -1,0 +1,20 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of /.well-known/ on Trusted Health hosts
+host: https://app.trustedhealth.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116 (served from app host; www redirects here 307)
+  status: 200
+  file: trusted-health-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 404
+- path: /.well-known/api-catalog             # RFC 9727
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only security.txt is published. www.trustedhealth.com/.well-known/security.txt
+  returns 307 -> https://app.trustedhealth.com/.well-known/security.txt (the
+  canonical location). No public API discovery documents are served.

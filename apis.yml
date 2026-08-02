@@ -1,8 +1,14 @@
 aid: trusted-health
 name: Trusted Health
-description: 'Trusted Health is a company surfaced as a portfolio company of craft-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Trusted Health is a career marketplace and workforce platform for travel nurses and allied
+  health professionals across the United States. Clinicians build a single Trusted profile and get
+  matched to travel and per-diem assignments, with transparent pay, licensure and compact-state
+  guidance, and support through onboarding, credentialing, and placement. Its Works.AI product gives
+  healthcare employers an AI-assisted staffing and workforce-management tool. Backed by Craft
+  Ventures, Trusted Health operates a consumer web and mobile application (app.trustedhealth.com)
+  rather than a public developer API; no OpenAPI, developer portal, or SDK surface is published. This
+  profile captures the company's real security, trust, and compliance posture.
 url: https://raw.githubusercontent.com/api-evangelist/trusted-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - craft-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6154ac78893abf1d1530f251/617038e1b8ef6426cf001435_Trusted_Symbol_Webclip_256x256.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Marketplace
+- Healthcare
+- Nursing
+- Staffing
+- Travel Nursing
+- Allied Health
+- Workforce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,37 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://trustedhealth.com
+  url: https://www.trustedhealth.com
+- type: About
+  url: https://www.trustedhealth.com/about
+- type: Blog
+  url: https://www.trustedhealth.com/blog
+- type: BlogRSS
+  url: https://www.trustedhealth.com/blog/rss.xml
+- type: SignUp
+  url: https://app.trustedhealth.com/signup
+- type: Login
+  url: https://app.trustedhealth.com/login
+- type: TermsOfService
+  url: https://www.trustedhealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.trustedhealth.com/privacy-policy
+- type: Security
+  url: https://www.trustedhealth.com/security
+- type: Compliance
+  url: https://www.trustedhealth.com/security
+- type: SecurityTxt
+  url: well-known/trusted-health-security.txt
+- type: WellKnown
+  url: well-known/trusted-health-well-known.yml
+- type: TrustCenter
+  url: security/trusted-health-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/trusted-health-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/trusted-health-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
