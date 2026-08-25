@@ -6,22 +6,16 @@
       "feed_url": "https://www.trustedhealth.com/about",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
-    },
-    {
-      "source": "https://www.trustedhealth.com/blog/rss.xml",
-      "error": "HTTPError"
+      "method": "none"
     },
     {
       "source": "https://www.trustedhealth.com/blog",
       "feed_url": "https://www.trustedhealth.com/blog",
       "title": "",
       "saved": 0,
-      "method": "none",
-      "error": "parse_failed"
+      "method": "none"
     }
   ],
   "post_count": 50,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
